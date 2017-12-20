@@ -2,14 +2,22 @@ GEM
   remote: https://rubygems.org/
   specs:
     amq-protocol (2.2.0)
+    awesome_print (1.8.0)
     bunny (2.8.0)
       amq-protocol (>= 2.2.0)
+    coderay (1.1.2)
+    method_source (0.9.0)
+    pry (0.11.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   bunny (~> 2.8)
+  pry
 
 BUNDLED WITH
    1.15.4
